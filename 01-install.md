@@ -48,7 +48,7 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> Following recommendations in the *"Learn Python The Hard Way"* course, I installed Python 2.7. But, since you recommend Python 3, I installed it instead. On the python.org site, they say that *"Python 2.7 is scheduled to be the last major version in the 2.x series"*. Even though version 3 might not be as matuared a poduct as version 2.7, but it's the future.
+>> Following recommendations in the *"Learn Python The Hard Way"* course, I installed Python 2.7. But, since you encourage Python 3, I installed this version instead. On the python.org site, they say that *"Python 2.7 is scheduled to be the last major version in the 2.x series"*. Even though version 3 might not be as matuared a poduct as version 2.7, but it's the future.
 
 ###Q2. Which Python Version Installed   
 
