@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I tried all three terminal editors you recommended. Nano showed itself as the easiest to start with. But I think I'll go with emacs. Even though emacs apparently demands some initial efforts to learn, but in a longer run, as the coding community agrees, it's a more powerful editor. 
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I have Atom installed on my Mac and I like it. I installed it following the recommendations from *Learn Python The Hard Way*. Atom proved to be very easy to start working with, it has smart autocompletion and color coding as well as multiple panes which makes it easy to navigate among open files. There are a number of keyboard shortcuts, the most useful is *cmd-shift-p* which opens a list of all Atom commands. To customize Atom, you can download Themes and Packages. I haven't tried it yet, though.
 
  
