@@ -9,10 +9,10 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > 1. **cat F1.txt > F2.txt** redirects output from file F1 to file F2 replacing the content of F2; **cat F1.txt >> F2.txt** adds content of F1 to the existing content of F2;
+> > 1. **cat F1.txt > F2.txt** redirects output from the file F1 to the file F2 replacing the content of F2; **cat F1.txt >> F2.txt** adds content of F1 to the existing content of F2;
 > > 2. **sort F1.txt | wc** sorts the lines of F1; The **|** then takes the standard output of the **sort** command on the left and pipes it as standard input to the **wc** command on the right. **wc** command outputs the number of lines, words, and characters in F1.
-> > 3. **uniq** filters out *adjacent*, duplicate lines in a file. If two lines are the same but don't follow one after another, the **uniq** command won't do amything with them. That's why it's better to sort the file before using **uniq** command, such as in **sort F1.txt | uniq**
-> > 4. **sed 's/white/black/' F1.txt** acts like a find and replace. **sed** stands for "stream editor", **s** for "substitution". In this case, we search for the text string 'white' and replace it with the string 'black'. Importantly, the above command will only replace the first instance of 'white' on each line. To replace *all* instances, we need to use **sed 's/white/black/g' F1.txt** where **g** stands for "global".
+> > 3. **uniq** filters out *adjacent*, duplicate lines in a file. If two lines are the same but don't follow one another directly, the **uniq** command won't do anything with them. That's why it's better to sort the file before using **uniq** command, such as in **sort F1.txt | uniq**
+> > 4. **sed 's/white/black/' F1.txt** acts like a find-and-replace command; **sed** stands for "stream editor", **s** for "substitution". In this case, we search for the text string *white* and replace it with the string *black*. Importantly, the above command will only replace the first instance of *white* on each line. To replace *all* instances, we need to use **sed 's/white/black/g' F1.txt** where **g** stands for "global".
 
 
 
