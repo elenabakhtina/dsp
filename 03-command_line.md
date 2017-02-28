@@ -13,8 +13,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > 2. **sort F1.txt | wc** sorts the lines of F1; The **|** then takes the standard output of the **sort** command on the left and pipes it as standard input to the **wc** command on the right. **wc** command outputs the number of lines, words, and characters in F1.
 > > 3. **uniq** filters out *adjacent*, duplicate lines in a file. If two lines are the same but don't follow one another directly, the **uniq** command won't do anything with them. That's why it's better to sort the file before using **uniq** command, such as in **sort F1.txt | uniq**.
 > > 4. **sed 's/white/black/' F1.txt** acts like a find-and-replace command; **sed** stands for "stream editor", **s** for "substitution". In this case, we search for the text string *white* and replace it with the string *black*. Importantly, the above command will only replace the first instance of *white* on each line. To replace *all* instances, we need to use **sed 's/white/black/g' F1.txt** where **g** stands for "global".
-> > 5. **grep Black F1.txt** searches F1 for lines that match a pattern, "Black" in our case, and returns the results. It is case sensitive. **grep -i Black F1.txt** is case incentive; **grep -R pattern dir** searches for files in the dirictory  filenames and lines in files
+> > 5. **grep Black F1.txt** searches F1 for lines that match a pattern, "Black" in our case, and returns the results. It is case sensitive. **grep -i Black F1.txt** is case incentive; **grep -R pattern dir** searches files in the dirictory **dir** and returns filenames and lines in files that match the **pattern**; **grep -Rl pattern dir** searches files in the dirictory **dir** and returns only filenames that match the **pattern**.
 > > 6. **rm F1.txt** deletes the file F1; **rm -r VeryImportantDir** deletes the directory and all its child directories.  
+> > 7. **cp * dir/** copies all of the files in the current directory to the directory **dir**; **cp F*.txt dir/*** selects all files in the working directory starting with "F" and ending with ".txt", and copies them to dir/.
 
 
 
