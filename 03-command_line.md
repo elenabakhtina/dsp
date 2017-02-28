@@ -16,9 +16,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > 5. **grep Black F1.txt** searches F1 for lines that match a pattern, "Black" in our case, and returns the results. It is case sensitive. **grep -i Black F1.txt** is case incentive; **grep -R pattern dir** searches files in the dirictory **dir** and returns filenames and lines in files that match the **pattern**; **grep -Rl pattern dir** searches files in the dirictory **dir** and returns only filenames that match the **pattern**.
 > > 6. **rm F1.txt** deletes the file F1; **rm -r VeryImportantDir** deletes the directory and all its child directories.  
 > > 7. **cp * dir/** copies all of the files in the current directory to the directory **dir**; **cp F*.txt dir/*** selects all files in the working directory starting with **F** and ending with **.txt**, and copies them to **dir**.
-> > 8. **nano ~/.bash_profile** ususe **nano** terminal editor to open the *bash profile* file that stores environment settings; **alias pd="pwd"** if added to the *bash profile* file creates keyboard shortcuts, or aliases, for commonly used commands, for example **pwd**.
+> > 8. **nano ~/.bash_profile** uses **nano** terminal editor to open the *bash profile* file that stores environment settings; **alias pd="pwd"** if added to the *bash profile* file creates keyboard shortcuts, or aliases, for commonly used commands, for example **pwd**.
 > > 9. **head -10 F1.txt** shows 10 first lines from the file F1; **less F1.txt** (to quit, hit q) and **more F1.txt** are also used to look at the contents of a file.
-> > 10. **man grep** and **help dir** are two commands to get help on command line commands.
+> > 10. **man grep** and **help dir** are two ways to get help on command line commands.
 
 
 ---
