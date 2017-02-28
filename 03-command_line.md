@@ -39,7 +39,7 @@ What do the following commands do:
 > > 3. **ls -l** lists all files and directories in the long format, i.e. shows more detials about each file or directory such as file mode, number of links, owner name, group name, number of bytes in the file, day and time the file was last modified, and the path-name.
 > > 4. **ls -lh** uses unit suffixes such as Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte to reduce the number of digits to three or less using base 2 for sizes.
 > > 5. **ls -lah** lists all files and directories, including the hidden ones, in the working directory and uses unit suffixes (see above) to reduce the number of digit to three or less using base 2 for sizes
-> > 6. **ls -t** sorts by time modified (most recently modified first) before sorting the operands by lexicographical order.
+> > 6. **ls -t** sorts files and directories by time modified (most recently modified first) before sorting them by lexicographical order.
 > > 7. **ls -Glp** lists all files and directories in the current directory in the long format, enables colorized output to distinguish file types, and write a slash **/** after each filename if that file is a directory.
 
 ---
