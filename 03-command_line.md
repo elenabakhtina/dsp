@@ -48,7 +48,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 1. **ls -R** lists subdirectories
+> > Note, in addition to checking the site you suggested I also looked at the documentation for **ls** using **man ls** command
+> > 1. **ls -R** lists subdirectories; the combination **ls -RG** is a good way to get a quick visual representation of your current dirrectory and its subcategories
+> > 2. **ls - S** sorts files by their size; the combination **ls -lSh** is useful to also see sizes of the files
+> > 3. ** ls - T** displays complete time information for the file, including month, day, hour, minute, second, and year, great to be used with **-l**
+> > 4. **ls -u** sorts files by time of the last access; the combination **ls -lTu** is useful to not only sort by the time of the last access but to also display the time itself
+> > 5. **ls -U** sorts files by time of file creation; again, the combination **ls -lTu** is useful to not only sort by the time of creation but also to display the time itself
 
 ---
 
