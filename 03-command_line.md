@@ -37,10 +37,10 @@ What do the following commands do:
 > > - **ls** lists all files and directories in the working directory.
 > > - **ls -a** lists all contents in the working directory, including hidden files and directories that start with a dot.
 > > - **ls -l** lists all files and directories in the long format, i.e. shows more detials about each file or directory such as file mode, number of links, owner name, group name, number of bytes in the file, day and time the file was last modified, and the path-name.
-> > 4. **ls -lh** uses unit suffixes such as Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte to reduce the number of digits to three or less using base 2 for sizes.
-> > 5. **ls -lah** lists all files and directories, including the hidden ones, in the working directory and uses unit suffixes (see above) to reduce the number of digit to three or less using base 2 for sizes
-> > 6. **ls -t** sorts files and directories by time modified (most recently modified first) before sorting them by lexicographical order.
-> > 7. **ls -Glp** lists all files and directories in the current directory in the long format, enables colorized output to distinguish file types, and write a slash **/** after each filename if that file is a directory.
+> > - **ls -lh** uses unit suffixes such as Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte to reduce the number of digits to three or less using base 2 for sizes.
+> > - **ls -lah** lists all files and directories, including the hidden ones, in the working directory and uses unit suffixes (see above) to reduce the number of digit to three or less using base 2 for sizes
+> > - **ls -t** sorts files and directories by time modified (most recently modified first) before sorting them by lexicographical order.
+> > - **ls -Glp** lists all files and directories in the current directory in the long format, enables colorized output to distinguish file types, and write a slash **/** after each filename if that file is a directory.
 
 ---
 
@@ -48,12 +48,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > Note, in addition to checking the site you suggested I also looked at the documentation for **ls** using **man ls** command.
-> > 1. **ls -R** lists subdirectories; the combination **ls -RG** is a good way to get a quick visual representation of your current dirrectory and its subcategories
-> > 2. **ls - S** sorts files by their size; the combination **ls -lSh** is useful to also see sizes of the files
-> > 3. **ls - T** displays complete time information for the file, including month, day, hour, minute, second, and year, great to be used with **-l**
-> > 4. **ls -u** sorts files by time of the last access; the combination **ls -lTu** is useful to not only sort by the time of the last access but to also display the time itself
-> > 5. **ls -U** sorts files by time of file creation; again, the combination **ls -lTu** is useful to not only sort by the time of creation but also to display the time itself
+> > Note, in addition to checking the site you suggested I also looked at the documentation for **ls** using **man ls** command.  
+> > 1. **ls -R** lists subdirectories; the combination **ls -RG** is a good way to get a quick visual representation of your current dirrectory and its subcategories.
+> > 2. **ls - S** sorts files by their size; the combination **ls -lSh** is useful to also see sizes of the files.
+> > 3. **ls - T** displays complete time information for the file, including month, day, hour, minute, second, and year, great to be used with **-l**.
+> > 4. **ls -u** sorts files by time of the last access; the combination **ls -lTu** is useful to not only sort by the time of the last access but to also display the time itself.
+> > 5. **ls -U** sorts files by time of file creation; again, the combination **ls -lTu** is useful to not only sort by the time of creation but also to display the time itself.
 
 ---
 
