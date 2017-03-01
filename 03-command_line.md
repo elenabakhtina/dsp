@@ -61,7 +61,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > **xargs** is a command that is used to build and execute command lines from standard input. in cases when a command, such as **cp** or **echo**, don't accept the standard input stream and rely only on the arguments which, in turn, might be too long to process, **xargs** can help to break this very long list of arguments into sublists to make it manageble for the command to process. An easy example is with **echo**  
+> > **$ echo {0..499}** will show all 500 numbers in one row.  
+> > **$ echo {0..499} | xargs -n 10** will break the list into 50 rows with 10 numbers in each.
  
 
