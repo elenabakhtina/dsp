@@ -26,6 +26,8 @@ my_tuple1
 >> 3. Both lists and tuples allow indexing, selecting, and slicing.   
 my_list[0:3]  
 [0, 1, 2]  
+my_tuple[0:3]
+(0, 1, 2)
 my_tuple[0:3]   
 (0, 1, 2)  
 >> 4. Both lists and tuples can be compared and sorted.  
