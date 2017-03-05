@@ -16,13 +16,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 >> my_tuple = (0,1,2,3,4)  
 >> **Similarities:**  
 >> 1. Both lists and tuples belong to *sequence data types* which means their elements are ordered in a defined sequence and can be accessed via indices.  
->> 2. Both lists and tuples allow duplicates.  
-my_list1 = my_list  
-my_tuple1 = my_tuple  
-my_list1  
-[0,1,2,3,4]  
-my_tuple1  
-(0,1,2,3,4)   
+>> 2. Both lists and tuples allow duplicates.    
 >> 3. Both lists and tuples allow indexing, selecting, and slicing.   
 my_list[0:3]  
 [0, 1, 2]  
@@ -43,14 +37,15 @@ True
 >> **Differences:**  
 >> 1. Syntax. Lists use [], tuples use ()  
 >> 2. Mutability. Elements in a given list are mutable and can ba changed (my_list[1] = 11 #Ok), elements in a given tuple are NOT mutable (my_tuple[1] = 11 #Error).
->> 3. The main advantage of tuples is that they can be used as keys in dictionaries, while lists can't, becasue dictionaries require that its keys are hashable and therefore immutable.
+>> 3. The main advantage of tuples is that they can be used as keys in dictionaries, while lists can't, becasue dictionaries require that its keys are hashable and therefore immutable.  
+
 ---
 
 ### Q2. Lists &amp; Sets
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> A *set* is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 
 ---
 
