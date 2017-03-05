@@ -14,15 +14,15 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 >> my_list = [1,2]  
 >> my_tuple = (1,2)  
->> Similarities:  
->> 1. Both lists and tuples belong to *sequence data types* which means their items or elements are ordered in a defined sequence and can be accessed via indices.
->> 2. Both allow duplicates.
-my_list1 = my_list
-my_tuple1 = my_tuple
-my_list1
-[1, 2]
-my_tuple1
-(1, 2)
+>> **Similarities:**  
+>> 1. Both lists and tuples belong to *sequence data types* which means their items or elements are ordered in a defined sequence and can be accessed via indices.  
+>> 2. Both allow duplicates.  
+>>> my_list1 = my_list  
+my_tuple1 = my_tuple  
+my_list1  
+[1, 2]  
+my_tuple1  
+(1, 2)  
 >> 3. 
 
 ---
