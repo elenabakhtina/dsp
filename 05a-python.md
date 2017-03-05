@@ -16,33 +16,34 @@ How are Python lists and tuples similar and different? Which will work as keys i
 >> my_tuple = (0,1,2,3,4)  
 >> **Similarities:**  
 >> 1. Both lists and tuples belong to *sequence data types* which means their items or elements are ordered in a defined sequence and can be accessed via indices.  
->> 2. Both allow duplicates.  
+>> 2. Both lists and tuples allow duplicates.  
 my_list1 = my_list  
 my_tuple1 = my_tuple  
 my_list1  
 [0,1,2,3,4]  
 my_tuple1  
 (0,1,2,3,4)   
->> 3. Both allow indexing, selecting, and slicing
-my_list[1] = 1
-my_tuple[1] = 1
-my_list[0:3]
-[0, 1, 2]
-my_tuple[0:3]
-(0, 1, 2)
->> 4. Both can be compared and sorted
-my_list1 = [4,3,2,1,0] # sorting
-my_tuple1 = (4,3,2,1,0)
-my_list1.sort()
-my_list1
-[0, 1, 2, 3, 4]
-sorted(my_tuple1)
-[0, 1, 2, 3, 4]
----------------------
-my_list > my_list1 #comparing
-False
-my_tuple < my_tuple1
-True
+>> 3. Both lists and tuples allow indexing, selecting, and slicing.  
+my_list[1] = 1  
+my_tuple[1] = 1  
+my_list[0:3]  
+[0, 1, 2]  
+my_tuple[0:3]  
+(0, 1, 2)  
+>> 4. Both lists and tuples can be compared and sorted.  
+my_list1 = [4,3,2,1,0] # sorting  
+my_tuple1 = (4,3,2,1,0)  
+my_list1.sort()  
+my_list1  
+[0, 1, 2, 3, 4]  
+sorted(my_tuple1)  
+[0, 1, 2, 3, 4]  
+---------------------   
+my_list > my_list1 #comparing    
+False  
+my_tuple < my_tuple1  
+True  
+>> **Differences:**
 ---
 
 ### Q2. Lists &amp; Sets
