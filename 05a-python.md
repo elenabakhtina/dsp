@@ -26,7 +26,7 @@ my_tuple1
 >> 3. Both lists and tuples allow indexing, selecting, and slicing.   
 my_list[0:3]  
 [0, 1, 2]  
-my_tuple[0:3]  
+my_tuple[0:3]   
 (0, 1, 2)  
 >> 4. Both lists and tuples can be compared and sorted.  
 my_list1 = [4,3,2,1,0] # sorting  
@@ -40,9 +40,9 @@ my_list > my_list1 #comparing
 False  
 my_tuple < my_tuple1  
 True  
->> **Differences:**
->> 1. Syntax. Lists use [], tuples use ()
->> 2. Mutability. Elements in a given list are mutable and can ba changed (my_list[1] = 11 #Ok), elements in a given tuple are NOT mutable (my_tuple[1] = 11 #Error).
+>> **Differences:**  
+>> 1. Syntax. Lists use [], tuples use ()  
+>> 2. Mutability. Elements in a given list are mutable and can ba changed (my_list[1] = 11 #Ok), elements in a given tuple are NOT mutable (my_tuple[1] = 11 #Error).  
 >> 3. The main advantage of tuples is that they can be used as keys in dictionaries, while lists can't.
 ---
 
