@@ -18,22 +18,13 @@ How are Python lists and tuples similar and different? Which will work as keys i
 >> 1. Both lists and tuples belong to *sequence data types* which means their elements are ordered in a defined sequence and can be accessed via indices.  
 >> 2. Both lists and tuples allow duplicates.    
 >> 3. Both lists and tuples allow indexing, selecting, and slicing.   
-my_list[0:3]  
-[0, 1, 2]  
-my_tuple[0:3]  
-(0, 1, 2)  
+my_list[0:3] - > [0, 1, 2]    
+my_tuple[0:3] - > (0, 1, 2)    
 >> 4. Both lists and tuples can be compared and sorted.  
-my_list1 = [4,3,2,1,0] # sorting  
-my_tuple1 = (4,3,2,1,0)  
-my_list1.sort()  
-my_list1  
-[0, 1, 2, 3, 4]  
-sorted(my_tuple1)  
-[0, 1, 2, 3, 4]   
-my_list > my_list1 #comparing    
-False  
-my_tuple < my_tuple1  
-True  
+my_list1 = [4,3,2,1,0] - > my_list1.sort() - > [0, 1, 2, 3, 4] #sorting  
+my_tuple1 = (4,3,2,1,0) - > sorted(my_tuple1) - > [0, 1, 2, 3, 4] #sorting   
+my_list > my_list1 - > False #comparing    
+my_tuple < my_tuple1 - > True #comparing  
 >> **Differences:**  
 >> 1. Syntax. Lists use [], tuples use ()  
 >> 2. Mutability. Elements in a given list are mutable and can ba changed (my_list[1] = 11 #Ok), elements in a given tuple are NOT mutable (my_tuple[1] = 11 #Error).  
@@ -59,6 +50,7 @@ my_set & my_set1 # elements that are in both my_set and my_set1
 my_set ^ my_set1 # elements that are in either my_set or my_set1 but not in both  
 {0, 1, 2, 3}  
 Similar to lists new elements can be added to sets, but they have to be immutable. Lists cannot be added to sets. 
+
 ---
 
 ### Q3. Lambda Function
