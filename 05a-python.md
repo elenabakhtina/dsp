@@ -36,7 +36,7 @@ my_tuple < my_tuple1
 True  
 >> **Differences:**  
 >> 1. Syntax. Lists use [], tuples use ()  
->> 2. Mutability. Elements in a given list are mutable and can ba changed (my_list[1] = 11 #Ok), elements in a given tuple are NOT mutable (my_tuple[1] = 11 #Error).
+>> 2. Mutability. Elements in a given list are mutable and can ba changed (my_list[1] = 11 #Ok), elements in a given tuple are NOT mutable (my_tuple[1] = 11 #Error).  
 >> 3. The main advantage of tuples is that they can be used as keys in dictionaries, while lists can't, becasue dictionaries require that its keys are hashable and therefore immutable.  
 
 ---
@@ -45,7 +45,19 @@ True
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> A *set* is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+>> A *set* is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.  
+my_set = {0,2,4,4}  
+my_set  
+{0, 2, 4} # sets remove duplicates, unlike lists that allow dplicates  
+my_set1 = {1,3,4,4}  
+my_set - my_set1 # elements that are in my_set, but not in my_set1  
+{0, 2}  
+my_set | my_set1 # elements that are in either my_set or my_set1  
+{0, 1, 2, 3, 4}  
+my_set & my_set1 # elements that are in both my_set and my_set1  
+{4}  
+my_set ^ my_set1 # elements that are in either my_set or my_set1 but not in both  
+{0, 1, 2, 3}  
 
 ---
 
