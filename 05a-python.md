@@ -44,11 +44,11 @@ my_set | my_set1 - > {0, 1, 2, 3, 4}  #elements that are in either my_set or my_
 my_set & my_set1 - > {4}  #elements that are in both my_set and my_set1  
 my_set ^ my_set1 - > {0, 1, 2, 3}  #elements that are in either my_set or my_set1 but not in both  
 Similar to lists new elements can be added to sets (using the **add()** function), but they have to be immutable. Lists cannot be added to sets.  
-Sets and lists are similar in a way their elements cad be added (s.add('a') and l.append('a')), removed (s.remove('a') and l.remove('a')), and sorted (sorted(s) and l.sort()).  
+Sets and lists are similar in a way their elements cad be added (**s.add('a')** and **l.append('a'))**, removed (**s.remove('a')** and **l.remove('a')**), and sorted (**sorted(s)** and **l.sort()**).  
 Both sets and lists can check whether an element belong to them  
 'a' in s - > True  
-'a' in l - > True
-But the big difference between lists and sets in locating elements. Not only can lists say whether an element we are looking for belong to them but also identify its exact location (by using l.index('a')). Because sets are collections of *unodered* elements, sets cannot locate exact positions of their elements.
+'a' in l - > True  
+The big difference between lists and sets in locating elements. Not only can lists say whether an element we are looking for belong to them but also identify its exact location (by using **l.index('a')**). Because sets are collections of *unodered* elements, sets cannot locate exact positions of their elements.
 
 ---
 
