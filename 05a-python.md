@@ -58,7 +58,7 @@ my_set & my_set1 # elements that are in both my_set and my_set1
 {4}  
 my_set ^ my_set1 # elements that are in either my_set or my_set1 but not in both  
 {0, 1, 2, 3}  
-
+Similar to lists new elements can be added to sets, but they have to be immutable. Lists cannot be added to sets. 
 ---
 
 ### Q3. Lambda Function
