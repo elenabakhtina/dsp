@@ -56,7 +56,7 @@ The big difference between lists and sets in locating elements. Not only can lis
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called "lambda". Below is an example of how lambda function defintion differes from a normal function definition:
+>> Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called "lambda". Below is an example that shows how lambda function differes from a normal function definition:
 >>> def f (x): return x**2
 ... 
 >>> print f(8)
@@ -67,7 +67,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>> print g(8)
 64
 
-
+>> If we're going to use some function several times, or if the function is too complex for writing in a single line, then it's advised to define the function somewhere and use it when needed. However, if we need some function only once and it's quite simple (i.e. it contains just one expression, like in the above examples), it's more convenient to use a lambda construct to generate a (temporary) anonymous function 
 ---
 
 ### Q4. List Comprehension, Map &amp; Filter
