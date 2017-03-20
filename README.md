@@ -6,7 +6,8 @@
 [1. Pre-work Exercises](#section-a)  
 [2. Submitting Pre-work](#section-b)  
 [3. Mac vs Windows](#section-c)  
-[4. FAQs](#section-d)  
+[4. Mac Specs](#section-d)  
+[5. FAQs](#section-e)  
 
 
 ---
@@ -18,11 +19,15 @@ Metis data science bootcamp. Students should budget **60+ hours** to complete th
 
 **All exercises _must_ be completed before the first day of class.**
 
- Step 0. [Fork Repo](00-fork_repo.md)
+ Step 0. [Fork Repo and Getting Started with Git & GitHub](00-fork_repo.md)
  
  Step 0.5 [Review Markdown formatting before beginning work](/resources/markdown.md) 
  
- Step 1. [Install software on your computer](01-install.md)
+ Step 1.  Installation  
+ 
+ >Step 1a. [Install software on your computer](01a-install.md)  
+ 
+ >Step 1b. [Install Jupyter Notebook on your computer](01b-install_jupyter.md)  
  
  Step 2. [Choose and learn your editor(s)](02-editors.md)
  
@@ -35,6 +40,8 @@ Metis data science bootcamp. Students should budget **60+ hours** to complete th
  >Step 5a. [Learn Python](05a-python.md)  
  
  >Step 5b. [Advanced Python](05b-python_advanced.md)  
+ 
+ >Step 5c. [Python Pandas](05c-python_pandas.md)  
  
  Step 6. [Linear Algebra](06-linear_algebra.md)
  
@@ -104,7 +111,18 @@ If you have a lot of familiarity with Linux (say > 1 year), then you may install
 
 ---
 
-## <a name="section-d"></a>4.  FAQs
+## <a name="section-d"></a>4.  Mac Specs
+
+We will be using [Docker](https://www.docker.com/what-docker) for software installations during the bootcamp.  
+
+### Docker on Mac
+Running Docker for Mac requires Mac OS X 10.10.3 Yosemite or newer. Your Mac must be a 2010 or newer model, with Intel’s hardware support for memory management unit (MMU) virtualization; i.e., Extended.
+
+### Docker on AWS Ubuntu
+There is the option to install Docker on an AWS Ubuntu instance.  
+
+
+## <a name="section-e"></a>5.  FAQs
 
 **Q:  Can I discuss prework with other students in the course?**  
 A:  Yes

@@ -5,9 +5,19 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 ---
 
-###Q1.  Cheat Sheet of Commands  
+### Q1.  Cheat Sheet of Commands  
 
-Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
+Here's a list of items with which you should be familiar:  
+* show current working directory path
+* creating a directory
+* deleting a directory
+* creating a file using `touch` command
+* deleting a file
+* renaming a file
+* listing hidden files
+* copying a file from one directory to another
+
+Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > 1. **cat F1.txt > F2.txt** redirects output from the file F1 to the file F2 replacing the content of F2; **cat F1.txt >> F2.txt** adds content of F1 to the existing content of F2.
 > > 2. **sort F1.txt | wc** sorts the lines of F1; The **|** then takes the standard output of the **sort** command on the left and pipes it as standard input to the **wc** command on the right. **wc** command outputs the number of lines, words, and characters in F1.
@@ -23,7 +33,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 ---
 
-###Q2.  List Files in Unix   
+### Q2.  List Files in Unix   
 
 What do the following commands do:  
 `ls`  
@@ -44,7 +54,7 @@ What do the following commands do:
 
 ---
 
-###Q3.  More List Files in Unix  
+### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
@@ -57,7 +67,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 ---
 
-###Q4.  Xargs   
+### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 

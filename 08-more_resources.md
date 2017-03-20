@@ -40,6 +40,9 @@ The following tutorials are very helpful in preparing for the bootcamp. It is hi
  * [Greg Reda&#39;s Pandas Tutorial](http://www.gregreda.com/2013/10/26/using-pandas-on-the-movielens-dataset/)  
  * [An Introduction to Pandas](http://synesthesiam.com/posts/an-introduction-to-pandas.html)
 
+### Advanced Python
+ * [Think Complexity](http://greenteapress.com/wp/think-complexity/):  This book is about complexity science, data structures and algorithms, intermediate programming in Python, and the philosophy of science
+
 ### Data Science
  * [Data Science for Business (O'Reilly book available for purchase)](http://shop.oreilly.com/product/0636920028918.do)
  

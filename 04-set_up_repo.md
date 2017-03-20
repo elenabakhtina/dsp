@@ -2,14 +2,6 @@
 
 Before you start, please take 15 minutes to [Try Git](https://try.github.io/levels/1/challenges/1). It does a great job at explaining the basic concepts, which we will be using for this part of the pre-work. 
 
-#### Git and GitHub  
-
-Let's clear up something first.  
-
-**Git** is a system for version control. It runs at the command line on your local machine and allows you to keep track of your files and modifications in a "repository". 
-
-**GitHub** is a website that allows you to upload your git respositories online. It allows you to have a backup of your files, has a visual interface to navigate your repos, and it allows other people (us!) to be able to view your repos. 
-
 ## Step 1: Sign up for GitHub
 
 You will need a GitHub account.
