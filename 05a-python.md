@@ -62,8 +62,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> **When to use lambda function and when to use a def to create a function?** If we're going to use a function several times, or if the function is too complex to be written in a single line, then it's advisable to use a standard function. However, if we need a function only once and it's quite simple (i.e. it contains just one expression, like in the above examples), it's more convenient to use a lambda construct to generate a (temporary) anonymous function.  
 >> **Other useful examples:**  
->>> l = [0,2,3,5,6,7,10,15,46]  
->>> l_5 = list(filter(lambda x: x % 5 == 0, l))  ->  [0, 5, 10, 15]  
+>>> l = [0,2,3,5,6,7,10,15,46]  ->  l_5 = list(filter(lambda x: x % 5 == 0, l))  ->  [0, 5, 10, 15]  
 >>> cubes = list(map(lambda x: x**3, range(10)))  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
  
 ---
@@ -73,8 +72,17 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
 >> List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.  
->> A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The result will be a new list resulting from evaluating the expression in the context of the for and if clauses which follow it.  
+>> A list comprehension consists of brackets containing an expression followed by a **for** clause, then zero or more **for** or **if** clauses. The result will be a new list resulting from evaluating the expression in the context of the **for** and **if** clauses which follow it. For example,    
 >>> [x+y for x in [1,2,3] for y in [10, 20, 30] if x!=1]  -> [12, 22, 32, 13, 23, 33]
+>> **Examples with *map* and *filter***
+>>> cubes = []
+>>> for x in range(10):
+...     cubes.append(x**3)
+... 
+>>> cubes
+[0, 1, 8, 27, 64, 125, 216, 343, 512, 729]  
+>> Or,  
+>>> cubes = list(map(lambda x: x**3, range(10)))  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 ---
 
