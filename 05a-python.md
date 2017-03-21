@@ -61,10 +61,16 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>> g = lambda x: x+10  -> print g(5)  -> 15 //Another way: (lambda x: x+10) (5)  ->  15
 
 >> **When to use lambda function and when to use a def to create a function?** If we're going to use a function several times, or if the function is too complex to be written in a single line, then it's advisable to use a standard function. However, if we need a function only once and it's quite simple (i.e. it contains just one expression, like in the above examples), it's more convenient to use a lambda construct to generate a (temporary) anonymous function.  
->> In-built function **sorted()** has a *key* parameter to specify a function to be called on each list element prior to making comparisons. For example, 
+
+>> Built-in function **sorted()** has a *key* parameter to specify a function to be called on each list element prior to making comparisons. For example, 
 >>> sorted("Elena has been learning Python for two months".split(), key=str.lower)  
 >>> ['been', 'Elena', 'for', 'has', 'learning', 'months', 'Python', 'two']  
+
 >> The value of the **key** parameter should be a function that takes a single argument and returns a key to use for sorting purposes. This technique is fast because the key function is called exactly once for each input record.
+
+>> **Other examples:**  
+>>> colors = ["blue", "lavender", "red", "yellow"]  
+>>> sorted(colors, key=lambda color: len(color), reverse=True)  -> ['lavender', 'yellow', 'blue', 'red']
  
 ---
 
