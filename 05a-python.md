@@ -85,6 +85,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>> key_sq = 'square'  
 >>> key_cube = 'cubic'  
 >>> d = {'square': (lambda x: x ** 2), 'cubic': (lambda x: x ** 3), 'quadratic': (lambda x: x ** 4)}  
+
 >>> d[key_sq](2)  -> 4  
 >>> d[key_cube](10)  -> 1000
 
@@ -110,7 +111,8 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >>> cubes  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]  
 
->> Or, using **lambda** and **map** function: cubes = list(map(lambda x: x**3, range(10))) // yet another way: cubes = [x**3 for x in range(10)]  
+>> Or, using **lambda** and **map** function:  
+>>> cubes = list(map(lambda x: x**3, range(10))) // yet another way: cubes = [x**3 for x in range(10)]  
 
 >> **Example with *filter***  
 >>> l = [0,2,3,5,6,7,10,15,46]  
@@ -122,7 +124,16 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >>> l_5  -> [0, 5, 10, 15]
 
->> Or, using **lambda** and **filter** function: l_5 = list(filter(lambda x: x % 5 == 0, l))
+>> Or, using **lambda** and **filter** function:  
+>>> l_5 = list(filter(lambda x: x % 5 == 0, l))
+
+>> Similarly to list comprehensions, **set comprehensions** are also supported and look like this:   
+>>> a = {x for x in 'abracadabra' if x not in 'abc'}  ->  {'d', 'r'}
+
+>> **Dictionary comprehension**:  
+>>> keys = ['a', 'b', 'c']  
+>>> values = [1, 2, 3]  
+>>> D = { k:v for (k,v) in zip(keys, values)}  ->  {'a': 1, 'b': 2, 'c': 3}
 
 ---
 
