@@ -82,17 +82,20 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 ... 
 
 >>> cubes  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]  
->> Or, using lambda and map function: cubes = list(map(lambda x: x**3, range(10))) // yet another way: cubes = [x**3 for x in range(10)]  
 
->> **Example with *filter*** 
->>> l = [0,2,3,5,6,7,10,15,46]
->>> l_5 = []
->>> for i in l:
-...     if i%5 == 0:
-...             l_5.append(i)
+Or, using lambda and map function: cubes = list(map(lambda x: x**3, range(10))) // yet another way: cubes = [x**3 for x in range(10)]  
+
+>> **Example with *filter***  
+>>> l = [0,2,3,5,6,7,10,15,46]  
+>>> l_5 = []  
+>>> for i in l:  
+...     if i%5 == 0:  
+...             l_5.append(i)  
 ... 
+
 >>> l_5
 [0, 5, 10, 15]
+
 Or, using lambda and filter function: l_5 = list(filter(lambda x: x % 5 == 0, l))
 
 ---
