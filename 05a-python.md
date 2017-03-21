@@ -61,9 +61,10 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>> g = lambda x: x+10  -> print g(5)  -> 15 //Another way: (lambda x: x+10) (5)  ->  15
 
 >> **When to use lambda function and when to use a def to create a function?** If we're going to use a function several times, or if the function is too complex to be written in a single line, then it's advisable to use a standard function. However, if we need a function only once and it's quite simple (i.e. it contains just one expression, like in the above examples), it's more convenient to use a lambda construct to generate a (temporary) anonymous function.  
->> **Other useful examples:**  
->>> l = [0,2,3,5,6,7,10,15,46]  ->  l_5 = list(filter(lambda x: x % 5 == 0, l))  ->  [0, 5, 10, 15]  
->>> cubes = list(map(lambda x: x**3, range(10)))  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+>> In-built function **sorted()** has a *key* parameter to specify a function to be called on each list element prior to making comparisons. For example, 
+>>> sorted("Elena has been learning Python for two months".split(), key=str.lower)  
+>>> ['been', 'Elena', 'for', 'has', 'learning', 'months', 'Python', 'two']  
+>> The value of the **key** parameter should be a function that takes a single argument and returns a key to use for sorting purposes. This technique is fast because the key function is called exactly once for each input record.
  
 ---
 
@@ -83,7 +84,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >>> cubes  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]  
 
-Or, using lambda and map function: cubes = list(map(lambda x: x**3, range(10))) // yet another way: cubes = [x**3 for x in range(10)]  
+>> Or, using lambda and map function: cubes = list(map(lambda x: x**3, range(10))) // yet another way: cubes = [x**3 for x in range(10)]  
 
 >> **Example with *filter***  
 >>> l = [0,2,3,5,6,7,10,15,46]  
@@ -93,10 +94,9 @@ Or, using lambda and map function: cubes = list(map(lambda x: x**3, range(10))) 
 ...             l_5.append(i)  
 ... 
 
->>> l_5
-[0, 5, 10, 15]
+>>> l_5  -> [0, 5, 10, 15]
 
-Or, using lambda and filter function: l_5 = list(filter(lambda x: x % 5 == 0, l))
+>> Or, using lambda and filter function: l_5 = list(filter(lambda x: x % 5 == 0, l))
 
 ---
 
