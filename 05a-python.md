@@ -71,9 +71,15 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> The value of the **key** parameter should be a function that takes a single argument and returns a key to use for sorting purposes. This technique is fast because the key function is called exactly once for each input record.
 
->> **Other examples:**  
+>> **Example 1:**  
 >>> colors = ["blue", "lavender", "red", "yellow"]  
 >>> sorted(colors, key=lambda color: len(color), reverse=True)  -> ['lavender', 'yellow', 'blue', 'red']
+ 
+>> **Example 2:**
+A common use is to sort complex objects using some of the object’s indices as keys.
+>>> city_tuples = [('New York City',8.5),('Paris', 2.2),('Moscow', 12.4),('New Delhi', 25),('Tokyo', 13.6),('Beijing', 21.5)]
+>>> sorted(city_tuples, key=lambda city: city[1])  -> 
+  [('Paris', 2.2), ('New York City', 8.5), ('Moscow', 12.4), ('Tokyo', 13.6), ('Beijing', 21.5), ('New Delhi', 25)]
  
 ---
 
