@@ -73,7 +73,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions provide a concise way to create lists. Common applications are to make new lists where each element is the result of some operations applied to each member of another sequence or iterable, or to create a subsequence of those elements that satisfy a certain condition.  
 >> A list comprehension consists of brackets containing an expression followed by a **for** clause, then zero or more **for** or **if** clauses. The result will be a new list resulting from evaluating the expression in the context of the **for** and **if** clauses which follow it. For example,    
->>> [x+y for x in [1,2,3] for y in [10, 20, 30] if x!=1]  -> [12, 22, 32, 13, 23, 33]
+>>> [x+y for x in [1,2,3] for y in [10, 20, 30] if x!=1]  -> [12, 22, 32, 13, 23, 33]  
 >> **Examples with *map* and *filter***
 >>> cubes = []
 >>> for x in range(10):
@@ -81,7 +81,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 ... 
 >>> cubes
 [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]  
->> Or,  
+>> Or, using lambda and map function
 >>> cubes = list(map(lambda x: x**3, range(10)))  ->  [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 ---
