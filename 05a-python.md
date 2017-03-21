@@ -75,11 +75,22 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>> colors = ["blue", "lavender", "red", "yellow"]  
 >>> sorted(colors, key=lambda color: len(color), reverse=True)  -> ['lavender', 'yellow', 'blue', 'red']
  
->> **Example 2:**
-A common use is to sort complex objects using some of the object’s indices as keys.
+>> **Example 2:**  
+>>A common use is to sort complex objects using some of the object’s indices as keys.
 >>> city_tuples = [('New York City',8.5),('Paris', 2.2),('Moscow', 12.4),('New Delhi', 25),('Tokyo', 13.6),('Beijing', 21.5)]  
 >>> sorted(city_tuples, key=lambda city: city[1])  ->  
   [('Paris', 2.2), ('New York City', 8.5), ('Moscow', 12.4), ('Tokyo', 13.6), ('Beijing', 21.5), ('New Delhi', 25)]
+  
+>> **Example 3:**  
+>>> key_sq = 'square'  
+>>> key_cube = 'cubic'  
+>>> d = {'square': (lambda x: x ** 2), 'cubic': (lambda x: x ** 3), 'quadratic': (lambda x: x ** 4)}  
+>>> d[key_sq](2)  -> 4  
+>>> d[key_cube](10)  -> 1000
+
+>> **Example 4:**  
+>>> min = (lambda x, y: x if x < y else y)  
+>>> min(10+2, 2+2)  -> 4
  
 ---
 
