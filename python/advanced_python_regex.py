@@ -66,3 +66,6 @@ i=1
 for domain in sorted(f_domains):
     print("%d. %s" %(i, domain))
     i = i + 1
+
+f.close()
+    
