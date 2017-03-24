@@ -39,7 +39,44 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 #### Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> Q3. The list shows all unique email addresses from the data file:
+1. alisaste@mail.med.upenn.edu
+2. atroxel@mail.med.upenn.edu
+3. bcfrench@mail.med.upenn.edu
+4. bellamys@mail.med.upenn.edu
+5. bryanma@upenn.edu
+6. dxie@upenn.edu
+7. hongzhe@upenn.edu
+8. hshou@mail.med.upenn.edu
+9. hsu9@mail.med.upenn.edu
+10. jaroy@mail.med.upenn.edu
+11. jellenbe@mail.med.upenn.edu
+12. jinboche@upenn.edu
+13. jrlandis@mail.med.upenn.edu
+14. jshults@mail.med.upenn.edu
+15. knashawn@mail.med.upenn.edu
+16. liy3@email.chop.edu
+17. michross@upenn.edu
+18. mingyao@mail.med.upenn.edu
+19. mjoffe@mail.med.upenn.edu
+20. mputt@mail.med.upenn.edu
+21. msammel@cceb.med.upenn.edu
+22. nanditam@mail.med.upenn.edu
+23. pgimotty@upenn.edu
+24. propert@mail.med.upenn.edu
+25. rhubb@mail.med.upenn.edu
+26. rlocalio@upenn.edu
+27. rshi@mail.med.upenn.edu
+28. ruifeng@upenn.edu
+29. rxiao@mail.med.upenn.edu
+30. sellenbe@upenn.edu
+31. shawp@upenn.edu
+32. sratclif@upenn.edu
+33. sxie@mail.med.upenn.edu
+34. warren@upenn.edu
+35. weiyang@mail.med.upenn.edu
+36. wguo@mail.med.upenn.edu
+37. whwang@mail.med.upenn.edu
 
 
 #### Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
