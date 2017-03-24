@@ -31,15 +31,15 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 #### Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
 >> Q2. There are 4 differently spelled titles in data the file:  
->>> 1. Assistant Professor is Biostatistics  
->>> 2. Assistant Professor of Biostatistics  
->>> 3. Associate Professor of Biostatistics  
->>> 4. Professor of Biostatistics
+1. Assistant Professor is Biostatistics  
+2. Assistant Professor of Biostatistics  
+3. Associate Professor of Biostatistics  
+4. Professor of Biostatistics
 
 
 #### Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> Q3. The list shows all unique email addresses from the data file:
+>> Q3. There are 37 unique email addresses in the data file:
 1. alisaste@mail.med.upenn.edu
 2. atroxel@mail.med.upenn.edu
 3. bcfrench@mail.med.upenn.edu
