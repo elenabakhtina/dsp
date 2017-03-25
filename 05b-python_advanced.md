@@ -20,12 +20,12 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
 >> Q1. There are 11 differently spelled degrees in the data file:  
->>> [' B.S.Ed. M.S. Ph.D.', ' JD MA MPH MS PhD', ' MD MPH Ph.D', ' Ph.D', ' Ph.D.', ' PhD', ' PhD ScD', ' Sc.D.', ' ScD', '0', 'Ph.D.']
+[' B.S.Ed. M.S. Ph.D.', ' JD MA MPH MS PhD', ' MD MPH Ph.D', ' Ph.D', ' Ph.D.', ' PhD', ' PhD ScD', ' Sc.D.', ' ScD', '0', 'Ph.D.']
 
 ----------
 
 >> Q1. There are 7 unique degrees from the data file:
->>> ['0', 'BSEdMSPhD', 'JDMAMPHMSPhD', 'MDMPHPhD', 'PhD', 'PhDScD', 'ScD']
+['0', 'BSEdMSPhD', 'JDMAMPHMSPhD', 'MDMPHPhD', 'PhD', 'PhDScD', 'ScD']
 
 
 #### Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
@@ -117,7 +117,12 @@ faculty_dict = { 'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'], ['P
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> There 5 first key to demonstrate the key 'Ellenberg' which has two values  
+>>> Bellamy: [[' Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']]  
+>>> Bilker: [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']]  
+>>> Bryan: [[' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']]  
+>>> Chen: [[' Ph.D.', 'Associate Professor of Biostatistics', 'jinboche@upenn.edu']]  
+>>> Ellenberg: [[' Ph.D.', 'Professor of Biostatistics', 'sellenbe@upenn.edu'], [' Ph.D.', 'Professor of Biostatistics', 'jellenbe@mail.med.upenn.edu']]
 
 #### Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
