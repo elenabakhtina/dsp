@@ -1,6 +1,6 @@
-##[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
+## [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
 
-###[What Is Markdown? 4 Reasons Why You Should Learn It Now](http://www.makeuseof.com/tag/markdown-4-reasons-learn-now/)  
+### [What Is Markdown? 4 Reasons Why You Should Learn It Now](http://www.makeuseof.com/tag/markdown-4-reasons-learn-now/)  
 Markdown is a simple way to add formatting — like headers, bold/italic text, and lists — to plain text. Rather than relying on HTML or WYSIWYG editors, Markdown allows you to create full pages of formatted text without ever having to remove your fingers from the keyboard, and all in a way that’s much more intuitive than HTML.  
 
 ---
@@ -51,9 +51,7 @@ Code for line separators:
 
 ```
 Rule #1 
-
 ---
-
 Rule #2
 *******
 Rule #3
@@ -99,7 +97,7 @@ Here's an inline link to [Google](http://www.google.com/).
 
 ## <a name="section-g"></a>7) Block Code, Language-specific 
 
-####python
+#### python
 
 Block code that is non-specific:  
 ```
@@ -113,7 +111,7 @@ print "hello world!"
 print "hello moon"
 ```
 
-####bash or console
+#### bash or console
 
 Block code that is non-specific:  
 ```
@@ -129,7 +127,7 @@ $ git remote -v
 $ ps awx | grep mongo
 ```
 
-####sql
+#### sql
 
 Block code that is non-specific:  
 ```
@@ -163,9 +161,9 @@ Content in the first column | Content in the second column
 
 ## <a name="section-i"></a>9) Practice Examples 
 
-####Data Science Trivia 
+#### Data Science Trivia 
 
-####Q1.  
+#### Q1.  
 What is the most installed language in the world?  
 - Python
 - SAS
@@ -175,9 +173,9 @@ What is the most installed language in the world?
 
 >> **Javascript**
 
--
+***
 
-####Q2.  
+#### Q2.  
 In hypothesis testing, we use the t score when the sample size is < 30 and the populations SD is unknown; else we use the Z score. 
 What is the distribution of t-squared?
  * Normal
@@ -188,9 +186,9 @@ What is the distribution of t-squared?
 
 >> **Chi-squared**
 
-***
+---
 
-####Q3.  
+#### Q3.  
 In the scikit-learn's official source repo, about how many issues are outstanding? (go ahead and check out their page)  
 1. 7  
 2. 70  
