@@ -84,14 +84,26 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> First, I'll assume that the probablities we are given, i.e. 1/125 and 1/300, applies to twin boys only (not girls).
+>> in general, Bayes' theorem lets us calculate a probability of occuring of a condition A in the case of the event B, P(A|B).
+>> In general, Bayes' theorem looks like this:
+>> P(A|B) = P(B|A) * P(A) / P(B)
+
+>> Here is how Bayes' theorem applies to our particular problem.
+>> Let's assume that B is a birth of twin boys, notB is a birth of not twins or not boys.
+>> Let's further assume that A is a birth of two identical boys, notA - a birth of two fraternal boys.
+>> Thus, the probability of that Elvis Presly was born an identical twin can be calculated by formula:
+>> P(identical|twin) = P(twin|identical) * P(idetical)/[P(twin|identical) * P(idetical) + P(twin|identical) * P(fraternal)]
+>> Now let's calculate all the individual probabilities from the right side:
+>> 1/125 + 1/300 = 0.01. This is a probability of twin boys to be born; Thus 0.99 is 
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The root differences b/w Bayesians (B) and Frequentists (F) is how they see "probability": for F it's related to the frequencies of repeated events, for B it's related to our own certainty or uncertainty of events.
+>> F are limited by the data they can collect. B assume that the data collected is limited and may not represent the whole truth, thus they build their models incorporating prior knowledge and believs about the system and how it works.
 
 ---
 
