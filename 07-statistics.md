@@ -87,9 +87,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> To solve this problem we'll use conditional probability.  
 >> Let's assume that **A** is a birth of twin boys, **notA** is a birth of not twins boys.
 >> Let's further assume that **B** is a birth of identical twins, **notB** is a birth of fraternal twins.  
->> We want to calculate a probability that twin boys were born (A) and that they are identical (B), which is equal to probability of B (identical twin boys) under condition of A (birth of twin boys) multiplied by probability of A (birth of twin boys).
->> P(A and B) = P(B|A) * P(A)  
->> Let's calculate probabilities on the rigth side.  
+>> We want to calculate a probability that twin boys were born (A) and that they are identical (B), which is equal to probability of B (identical twin boys) under condition of A (birth of twin boys) multiplied by probability of A (birth of twin boys).  
+>> **P(A and B) = P(B|A) * P(A)**  
+>> Let's calculate probabilities on the rigth side of the equation.  
 >> **P(A)**. We observe a birth of twin boys in the population in (1/125+1/300) cases, which equal to 0.01. In other words, among all births we observe, twin boys are born on average in one case out of 100. P(A) = 0.01.  
 >> **P(B|A)**. Among twin boys that are born, some pairs are identical, some are fraternal. The probability of twin boys to be identical is (1/300)/(1/300+1/125) which is equal to 0.29. P(B|A) = 0.29.  
 >> Putting everything together:  
