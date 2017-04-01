@@ -84,17 +84,17 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> To solve this problem we'll use Conditional probability.  
->> Let's assume that A is a birth of twin boys, notA is a birth of not twins boys.
->> Let's further assume that B is a birth of two identical boys, notB is a birth of two fraternal boys.  
->> We want to calculate a probability that twin boys were born (A) and they are identical (B), which is equal to probability >> of B (identical twin boys) under condition of A (birth of twin boys) multiplied by probability of A (birth of twin boys).
+>> To solve this problem we'll use conditional probability.  
+>> Let's assume that **A** is a birth of twin boys, **notA** is a birth of not twins boys.
+>> Let's further assume that **B** is a birth of identical twins, **notB** is a birth of fraternal twins.  
+>> We want to calculate a probability that twin boys were born (A) and that they are identical (B), which is equal to probability of B (identical twin boys) under condition of A (birth of twin boys) multiplied by probability of A (birth of twin boys).
 >> P(A and B) = P(B|A) * P(A)  
 >> Let's calculate probabilities on the rigth side.  
->> P(A). We observe a birth of twin boys in the population in (1/125+1/300) cases, which equal to 0.01. In other words, among all births we observe, twin boys are born on average in one case out of 100. P(A) = 0.01.  
->> Among twin boys that are born, some pairs are identical, some are fraternal. The probability of twin boys to be identical is (1/300)/(1/300+1/125) which is equal to 0.29. P(B|A) = 0.29.  
+>> **P(A)**. We observe a birth of twin boys in the population in (1/125+1/300) cases, which equal to 0.01. In other words, among all births we observe, twin boys are born on average in one case out of 100. P(A) = 0.01.  
+>> **P(B|A)**. Among twin boys that are born, some pairs are identical, some are fraternal. The probability of twin boys to be identical is (1/300)/(1/300+1/125) which is equal to 0.29. P(B|A) = 0.29.  
 >> Putting everything together:  
 >> P(B|A) * P(A) = 0.29 * 0.01 = 0.0029  
->> So, the probability for a newborn male to be an identical twin is 0.29%. But not for Elvis Presley! Since we already know he was a twin, we need to calculate only the probability of him being identical, which we already did and it equals to 0.29. In other words, there is a 29% chance that Elvis was born an identical twin.
+>> So, the probability of a newborn male to be born an identical twin is 0.29%. But not for Elvis Presley! Since we already know he was a twin, we need to calculate only the probability of him being an identical twin, which we already did and found that it equals to 0.29. In other words, there is a 29% chance that Elvis was born an identical twin.
 
 
 ---
