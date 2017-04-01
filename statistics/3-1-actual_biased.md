@@ -3,11 +3,11 @@
 >> My Python code for this exercise is in /ThinkStats2/code/Elena_ThinkStats2_Ch3Ex1.py
 
 >> *The output is:*  
->> Actual mean 1.02420515504  
->> Observed mean 2.40367910066
+Actual mean 1.02420515504  
+Observed mean 2.40367910066
 
->> *Here I wanted to insert the image of two distributions.
->> The syntax is ![Ch3 ex1: Actual vs. Biased Distributions](link to the image Ch3_ex1.png in /dsp/Images/)  
+>> *Here I wanted to insert the image of two distributions.  
+>> ![Ch3 ex1: Actual vs. Biased Distributions](link to the image Ch3_ex1.png in /dsp/Images/)  
 >> Problem. Apparently I need to have my image uploaded somewhere to have the link. The natural place would be the current repo, but I failed add the image to it due to git.*
 
 >> **Actual mean** is the mean of the actual distribution of number of children in families.  
