@@ -3,6 +3,7 @@
 >> My Python code for this exercise is in /ThinkStats2/code/Elena_ThinkStats2_Ch3Ex1.py
 
 >> *The output is:*  
+
 Actual mean 1.02420515504  
 Observed mean 2.40367910066
  
