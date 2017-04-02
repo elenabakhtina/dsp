@@ -103,8 +103,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 How do frequentist and Bayesian statistics compare?
 
 >> The root differences b/w Bayesians (**B**) and Frequentists (**F**) is how they see "probability": for **F** it's related to the frequencies of repeated events, for **B** it's related to our own certainty or uncertainty of events. In other words, as I read on one forum *"frequentist reasoning is an attempt at reasoning from "absolute" probabilities, whereas bayesian reasoning is an attempt at reasoning from "relative" probabilities."* Both have their flaws: "absolute" probabilities may not be achieved due to limitation of the physical world (you may never collect enough data to calculate the absolute probability) while "relative" probabilities may be biased and thus not reprerentative.   
-Because of the way **B** see probability, they incorporate prior knowledge and believes into estimating a probability of a hypothesis and update it as more evidence or information becomes available.  
-It should be noticed that for simple problems, both approaches give the same answer. But for more complicated ones, their answers may differ. What's important here is to clearly understand what exact question every statistics answers in order to interpret their results accordingly.
+
+>> Because of the way **B** see probability, they incorporate prior knowledge and believes into estimating a probability of a hypothesis and update it as more evidence or information becomes available.  
+
+>> It's worth noting that for simple problems, both approaches give the same answer. But for more complicated ones, their answers may differ. What's important here is to clearly understand what exact question every statistics answers in order to interpret their results accordingly.
 
 ---
 
