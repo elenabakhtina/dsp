@@ -14,7 +14,6 @@ Percentales of cdf1 (25, 50, 75, 100):
 Percentales of cdf2 (25, 50, 75, 100):  
 0.275613491131 0.508626420166 0.767363652792 0.996918653995  
 
->> *Here I wanted to insert the image of two distributions.  
->> ![Ch4 ex2 pmfs: pmfs of two sequences of random numbers](link to the image Ch4_ex2_pmfs.png in /dsp/img/)  
->> ![Ch4 ex2 cdfs: cdfs of two sequences of random numbers](link to the image Ch4_ex2_cdfs.png in /dsp/img/) 
->> Problem. Apparently, I need to have my image uploaded somewhere to have the link. The natural place would be the current repo, but I failed add the image to it due to git.*
+![Ch4 ex2 pmfs: pmfs of two sequences of random numbers](https://github.com/elenabakhtina/dsp/blob/master/img/Ch4_ex2_pmfs.png)  
+![Ch4 ex2 cdfs: cdfs of two sequences of random numbers](https://github.com/elenabakhtina/dsp/blob/master/img/Ch4_ex2_cdfs.png) 
+
